@@ -1,0 +1,38 @@
+   D
+  DDD
+  DDD
+  DDD
+  DDD
+  DDD
+  DDD
+DDDDDDD      DDDDD
+  DDD       DDDDDDD       DDD
+  DDD       DDDDDDD       DDD
+  DDD       DDDDDDD       DDD
+  DDD         DDD         DDD
+  DDDD       DDDDD       DDDD
+    DDDDDDDDDDDDDDDDDDDDDDDD
+         DDDDDDDDDDDDD
+           DDDDDDDDDD
+           DDDDDDDDDD
+           DDDDDDDDDD
+           DDDDDDDDDD
+          DDDDDDDDDDDDDD              DDDDDDDDDD
+         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+        DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+        DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD DDDDD
+          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD   DDDD
+           DDDDDDDD                 DDDDDDDDDDDDD     DDDD
+            DDDDDD                    DDDDDDDD       DDDD
+             DDDD                      DDDDDD        DDD
+            DDDD                       DDDDD         DD
+           DDDD                       DDDDD          DD
+            DDDD                       DDDDD         D
+            DDDD                       DDDDD
+             DDDD                      DDDD
+             DDDD                      DDDD
+            DDDDDD                    DDDDDD
+            DDDDDD                    DDDDDD
+
