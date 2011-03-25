@@ -1,24 +1,63 @@
 !!! 5
 %html
   %head
-    %script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
     %script(type="text/javascript" src="/javascript/centaur.js")
+    %script(type="text/javascript" src="http://use.typekit.com/qda1vvu.js")
+    :javascript
+      try{Typekit.load();}catch(e){}
     :css
       body {
         text-align: center;
+        font-family: "droid-sans-mono-1","droid-sans-mono-2", monaco, courier;
+        margin: 0;
+        padding: 0;
+      }
+      p#message {
+        color: #ff0000;
+        font-size: 12px;
+        text-transform: uppercase;
       }
       textarea {
         font-family: monaco, courier;
-        width: 700px;
+        width: 500px;
         height: 600px;
+      }
+      footer {
+        background: #000;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 12px;
+      }
+      footer p {
+        margin: 5px 0;
+      }
+      footer a {
+        color: #fff;
+        text-decoration: none;
+          border-bottom: 1px dotted #aaa;
+      }
+      footer a:hover {
+        border-bottom: 1px dotted #fff;
       }
   %body
     %h1 text-align: centaur;
+    %p#message
     %textarea
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor, leo non varius cursus, sapien nulla fermentum nisl, sit amet faucibus lorem ligula a lorem. Vestibulum scelerisque sem tortor. Nulla dignissim mattis mattis. Proin tincidunt sapien non purus sagittis iaculis ac non urna. Cras sodales dapibus diam, at auctor neque cursus mattis. Vestibulum nec porta urna. Suspendisse eros erat, pulvinar vel facilisis id, gravida vel sapien. Donec aliquam ante sed leo egestas varius. Fusce imperdiet nulla lacinia massa feugiat a commodo justo ullamcorper. Aliquam tincidunt consequat ornare. Vestibulum tristique suscipit nibh eu dignissim. Donec nec elit elit, sit amet pellentesque dolor. Aenean volutpat odio vel turpis posuere eu feugiat odio congue.
-
-      Curabitur arcu nibh, vestibulum in porta non, gravida eu ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum dui neque, lobortis non interdum at, tempus quis est. Nunc commodo diam ac quam feugiat in ornare sapien congue. Praesent consectetur aliquet felis ac facilisis. Praesent sed nisi vel nisi tristique molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis nisl tortor, facilisis at pharetra vitae, eleifend at ante. Proin congue imperdiet odio, et laoreet enim scelerisque ut. Fusce in sapien ut lorem tristique mollis. Vivamus aliquet mattis odio sit amet lobortis. Sed auctor gravida euismod. Aenean ultricies auctor luctus. Curabitur id neque in massa elementum consectetur a vel elit. Quisque orci neque, pulvinar sed facilisis id, accumsan in mauris. In sed nisl nibh.
-
-      Duis ut lectus ante, vitae ornare leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac nisi augue, at malesuada leo. Duis a ante vitae nunc porta venenatis a sit amet justo. Duis sed quam tellus. In hendrerit turpis sed odio consectetur iaculis. Aenean massa orci, eleifend sit amet suscipit id, fermentum ut arcu. Donec scelerisque lobortis nulla, eu porta metus pellentesque quis. Cras non lorem velit. Sed faucibus metus a augue luctus scelerisque. Donec quis congue magna. Pellentesque condimentum sollicitudin eros, vel ultrices ante ultricies sed. Phasellus nec purus lorem.
     %p
       %input(type='submit' value='centaur text')
+    %footer
+      %p
+        This essential service provided to you by
+        %a(href="http://camerondaigle.com") Cameron Daigle
+    :javascript
+      var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-308731-12']);
+       _gaq.push(['_trackPageview']);
+
+       (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
